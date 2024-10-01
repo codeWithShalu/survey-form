@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <main>
+      <p id="description">Survey form for people who is in field of IT</p>
+     <div id="box"> <form id="survey-form">
+        <label class="p-left">Enter Your Name : <input type="text" id="name" placeholder="paras prajapat" required /></label>
+        <br/>
+        <br/>
+        <label class="p-left">Your Email : <input type="email" id="email" placeholder="parasprajapatxx@gmal.com" required/></label>
+        <br/>
+        <br/>
+       <label class="p-left">Your contact no : <input type="number" id="number" placeholder="8890xxxxxxx" required min="10" max="10"/></label>
+       <br/>
+       <br/>
+  <select id="dropdown" style="margin-left:20px;">
+    <option>beginner</option>
+      <option>Senior</option>
+    </select> 
+    <br/>
+    <br/>
+    <div class="parent">
+    <div class="flex-div">
+    <label> female   
+ <input  name="gender" type="radio" value="female">  
+ </label> 
+ </div>
+ <div class="flex-div">
+ <label>male
+  <input  name="gender" value="male" type="radio" id="male"></label>
+     </div>
+     </div>
+  <br/> 
+  <div class="parent">
+    <div class="flex-div">
+  <label>Frontend developer<input  name="class" value="class"type="checkbox" id="front"></label>   
+     </div>
+  <div class="flex-div">
+  <label>Backend developer<input id="backend" name="class" value="class"type="checkbox"></label>
+  </div>
+  </div>
+<br/>
+<textarea rows="10" cols="30"></textarea>
+<button id="submit">Submit</button>
+<p><b><i>Thanks for taking part in survey</i></b></p>
+      </form>
+      </div>
+      </main>
+      </body>
+  </html>
